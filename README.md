@@ -25,9 +25,11 @@
 ## 🚀 Features
 
 - ✏️ Offline support for [TLDraw editor](https://tldraw.com/)
+- 🌓 Dark and Light themes
+- 🚀 Blazing fast
 
 <p align="center">
-  <img src="./assets/quickgpttw.gif"/>
+  <img src="./assets/lightdraw.gif"/>
 </p>
 
 ## ⚖️ License
