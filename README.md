@@ -32,6 +32,11 @@
   <img src="./assets/lightdraw.gif"/>
 </p>
 
+## 🤝 Related projects
+
+- [TLDraw](https://github.com/tldraw) - The editor used in Light Draw
+- [Tauri](https://tauri.app) - The framework used to build Light Draw
+
 ## ⚖️ License
 
 MIT © [David Jimenez](https://dubis.dev)
