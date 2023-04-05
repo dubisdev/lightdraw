@@ -36,7 +36,7 @@
       ]
     },
     "security": {
-      "csp": null
+      "csp": "default-src 'self' 'unsafe-inline'"
     },
     "windows": [
       {
