@@ -1,0 +1,50 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Light Draw",
+    "version": "../package.json"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      },
+      "dialog": {
+        "all": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "dev.dubis.lightdraw",
+      "copyright": "David Jiménez © 2023",
+      "publisher": "dubis.dev",
+      "targets": [
+        "msi"
+      ]
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "Light Draw",
+        "width": 1000,
+        "height": 800,
+        "fileDropEnabled": false
+      }
+    ]
+  }
+}

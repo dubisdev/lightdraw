@@ -1,0 +1,30 @@
+{
+  "name": "lightdraw",
+  "description": "A simple drawing app built with TLDraw and Tauri",
+  "version": "0.0.0-development",
+  "author": "David Jiménez <dubisdev@gmail.com> (https://dubis.dev)",
+  "repository": "dubisdev/lightdraw",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "1.2.0",
+    "@tldraw/tldraw": "1.29.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "1.2.3",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "@vitejs/plugin-react": "3.1.0",
+    "typescript": "4.9.5",
+    "vite": "4.2.1"
+  }
+}
